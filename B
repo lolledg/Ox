@@ -878,7 +878,7 @@ local function redo2()
 					char["Left Leg"].Transparency = 0.5
 				end 
 				if not c:FindFirstChild("Tor") then 
-					char["Torso"].Transparency = 0.5
+					char["Torso"].Transparency = 1
 				end 
 			end)
 			for _,v in pairs(c:GetChildren()) do
